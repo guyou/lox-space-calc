@@ -1,0 +1,12 @@
+[package]
+name = "lox-calc"
+description = "A calculator based on lox-space libraries"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.90"
+
+[dependencies]
+eframe = "0.24.0"
+lox-time = "0.1.0-alpha.11"
+#lox-time = { path = "../lox/crates/lox-time" }
+##lox-math = { path = "../lox/crates/lox-math" }
